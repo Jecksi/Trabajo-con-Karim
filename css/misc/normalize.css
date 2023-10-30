@@ -1,0 +1,39 @@
+/*Normalizacion de estilos */
+
+*,*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+} 
+
+
+html {
+    font-size: 62.5%;
+    font-family: var(--base-font);
+    color: var(--dark-solid);
+} 
+a {
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+}
+
+
+ul, ol {
+    list-style-type: none;
+}
+p {
+    font-size: 1.8em;
+}
+
+img {
+    width: 100%;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
