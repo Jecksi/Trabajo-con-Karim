@@ -18,99 +18,107 @@
 @import url("./pages/nosotros.css");
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
 }
-
 .login-container {
-    width: 300px;
-    margin: 0 auto;
-    background: #ffffff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* background-color: #fff; */
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
 }
-
 h2 {
-    margin-top: 0;
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0.04em;
+  text-align: right;
 }
-
+label {
+  display: block;
+  text-align: left;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 .form-group {
-    margin-bottom: 20px;
-    text-align: left; /* Alineación del texto en el formulario */
+  width: 382.87px;
+  height: 98.72px;
+  top: 256.07px;
+  left: 528.56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-label, input {
-    display: block;
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
-
-input[type="text"], input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+input[type="submit"]:hover {
+  background-color: #45a049;
 }
-
-.form-actions {
-    text-align: center;
+p {
+  text-align: center;
 }
-
-.form-actions a {
-    text-decoration: none;
-}
-
-.submit-button {
-    background-color: #0073e6;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    padding: 10px 20px;
-    cursor: pointer;
+a {
+  text-decoration: none;
+  color: #007bff;
 }
 
 /* Boton de registrarse  */
 .register-container {
-    width: 300px;
-    margin: 0 auto;
-    background: #ffffff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .form-group {
-    margin-bottom: 20px;
-    text-align: left;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
-
-input[type="text"], input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
 .form-actions {
-    text-align: center;
+  text-align: center;
 }
 
 .form-actions a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .submit-button {
-    background-color: #0073e6;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    padding: 10px 20px;
-    cursor: pointer;
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
 }

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="css/login copy.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar container">
+          <picture class="navbar__logo">
+            <a href="./index.html">
+            <img
+              src="./img/branding/logo_light_horizontal.svg"
+              alt="Isologotipo de la Marca Funkoshop"/>
+            </a>
+            </picture>
+        <ul class="navbar__menu ">
+          <li class="navbar__item with-submenu">
+            <a href="./pages/shop.html" class="navbar__link with-icon">SHOP<iconify-icon icon="tabler:chevron-down"></iconify-icon></a>
+          <ul class="submenu">
+            <link class="submenu__item">
+              <a href="" class="submenu__link">Funkos</a>
+            </link>
+            <li class="submenu__item">
+              <a href="" class="submenu__link">Remeras</a>
+            <li class="submenu__item">
+              <a href="" class="submenu__link">Llaveros</a>
+              </li>
+          </ul>
+          <li class="navbar__item">
+            <a href="./pages/contact.html" class="navbar__link">CONTACTO</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="./admin/login.html">LOGIN</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link cart" href="./pages/cart.html">
+              <img src="./img/icons/cart-icon.svg" alt="Icono de carrito"/>
+            </a>
+          </li>
+          </li>
+        </ul>
+      </nav>
+      </header>
+
+<form action="">
+<div class="container-login">
+  <h2>INGRESAR MI CUENTA</h2>
+  <div>
+    <div class="flex-ingresar">
+  <label class="email" for="email">Email:</label>
+  <input class="value-email" type="text" id="email" name="email" value="johndoe@correo.com" required>
+</div>
+  </div>
+  <div class="flex-ingresar">
+  <label class="password" for="password">Contraseña:</label>
+  <input class="value-password" type="password" id="password" name="password" value="********" required>
+  </div>
+    <div>
+      <div class="flex-ingresar">
+    <input class="boton" type="submit" value="Ingresar">
+        <div class="borde-recuerdame">
+    <input class="checkbox" type="checkbox" id="rememberMe" name="rememberMe">
+    <label class="recordarme" for="rememberMe">Recordarme</label>
+      </div>
+        </div>
+    <p class="recuperar"><a href="olvide_mi_contrasena.html">Olvidé mi contraseña</a></p>
+  </div>
+</div>
+</form>
+
+    <footer class="footer">   <!-- Aqui empieza el footer -->
+      <nav class="navbar container">
+        <ul class="navbar__item">
+          <li class="navbar__item">
+            <a class="navbar__link" href="">SHOP</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="">REGISTRARSE</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="">LOGIN</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="">CONTACTO</a>
+          </li>
+        </ul>
+        <picture>
+          <img src="./img/branding/isotype.svg" alt="Isologotipo de la Marca Funkoshop">
+        </picture>
+      </nav>
+      <p class="footer__copy">All rights reserved 2023 - Funkoshop &copy;</p>
+     </footer> 
+
+      <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</body>
+</html>
