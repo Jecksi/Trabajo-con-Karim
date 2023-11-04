@@ -122,3 +122,101 @@ h2 {
   justify-content: space-between;
   margin-top: 20px;
 }
+
+/* Group 98 */
+
+position: absolute;
+width: 273.48px;
+height: 78.35px;
+left: 583.26px;
+top: 390.78px;
+
+/* Component 2 */
+
+position: absolute;
+width: 103px;
+height: 39.06px;
+left: 583.26px;
+top: 390.78px;
+
+/* Rectangle 36 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #ff3333;
+
+/* Ingresar */
+
+position: absolute;
+left: 27.18%;
+right: 27.18%;
+top: 30.8%;
+bottom: 30.8%;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #ffffff;
+
+/* Group 28 */
+
+position: absolute;
+width: 129.25px;
+height: 22px;
+left: 727.49px;
+top: 399.32px;
+
+/* Recordarme */
+
+position: absolute;
+width: 104px;
+height: 22px;
+left: 752.74px;
+top: 399.32px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #1f1f1f;
+
+/* Rectangle 28 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 16.27px;
+height: 16.27px;
+left: 727.49px;
+top: 402.18px;
+
+border: 2px solid #1f1f1f;
+border-radius: 3px;
+
+/* Olvidé mi contraseña */
+
+position: absolute;
+width: 140px;
+height: 17px;
+left: 650px;
+top: 452.13px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #1d84b5;
