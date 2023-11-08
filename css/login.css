@@ -17,108 +17,108 @@
 @import url("./pages/home.css");
 @import url("./pages/nosotros.css");
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
-  text-align: center;
+.container-login {
+  width: 515px;
+  height: 289.13px;
+  margin-top: 180px;
+  margin-left: 462.5px;
+  border-radius: 3px;
 }
-.login-container {
-  /* background-color: #fff; */
-  border-radius: 10px;
-  width: 300px;
-  margin: 0 auto;
-  padding: 20px;
-  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
-}
+
 h2 {
   font-family: Raleway;
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 49px;
   letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.email {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.04em;
   text-align: right;
 }
-label {
-  display: block;
+
+.value-email {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  text-align: right;
+  color: #b9b9b9;
+  border-top: none; /* Elimina el borde superior */
+  border-left: none; /* Elimina el borde izquierdo */
+  border-right: none; /* Elimina el borde derecho */
+  border-bottom: 2px solid #ff3333;
+}
+
+.password {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.04em;
+  text-align: right;
+}
+
+.value-password {
+  border-top: none; /* Elimina el borde superior */
+  border-left: none; /* Elimina el borde izquierdo */
+  border-right: none; /* Elimina el borde derecho */
+  border-bottom: 2px solid #ff3333;
+}
+
+.boton {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  background: #ff3333;
+  width: 103px;
+  height: 39.06px;
+  top: 390.78px;
+  left: 583.26px;
+}
+
+.recordarme {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
   text-align: left;
+  border: 2px solid #1f1f1f;
 }
-input[type="text"],
-input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+
+.checkbox {
+  width: 16.27px;
+  height: 16.27px;
+  top: 402.18px;
+  left: 727.49px;
+  border-radius: 3px;
+  border: 2px;
 }
-.form-group {
-  width: 382.87px;
-  height: 98.72px;
-  top: 256.07px;
-  left: 528.56px;
+
+.recuperar {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d84b5;
+}
+
+.flex-ingresar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-input[type="submit"] {
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-input[type="submit"]:hover {
-  background-color: #45a049;
-}
-p {
-  text-align: center;
-}
-a {
-  text-decoration: none;
-  color: #007bff;
-}
-
-/* Boton de registrarse  */
-.register-container {
-  width: 300px;
-  margin: 0 auto;
-  background: #ffffff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-  margin-top: 0;
-}
-
-.form-group {
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-input[type="text"],
-input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-.form-actions {
-  text-align: center;
-}
-
-.form-actions a {
-  text-decoration: none;
-}
-
-.submit-button {
-  background-color: #0073e6;
-  color: #fff;
-  border: none;
-  border-radius: 3px;
-  padding: 10px 20px;
-  cursor: pointer;
+  margin-top: 20px;
 }
